@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "MessageNode",
+    "entityId" : "default/aa0ca088-e19a-46a3-8e0a-cfd6d5e34957",
+    "uid" : "ou=aa0ca088-e19a-46a3-8e0a-cfd6d5e34957,ou=default,ou=OrganizationConfig,ou=1.0,ou=MessageNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "aa0ca088-e19a-46a3-8e0a-cfd6d5e34957" ]
+  },
+  "data" : {
+    "_id" : "default/aa0ca088-e19a-46a3-8e0a-cfd6d5e34957",
+    "_type" : {
+      "_id" : "MessageNode",
+      "name" : "MessageNode",
+      "collection" : false
+    },
+    "message" : {
+      "en" : "Is it true?"
+    },
+    "messageNo" : {
+      "en" : "No"
+    },
+    "messageYes" : {
+      "en" : "Yes"
+    }
+  }
+}

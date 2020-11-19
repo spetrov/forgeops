@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "OptOutMultiFactorAuthenticationNode",
+    "entityId" : "default/9367e519-ab81-40ed-9c31-2e65a0e4f472",
+    "uid" : "ou=9367e519-ab81-40ed-9c31-2e65a0e4f472,ou=default,ou=OrganizationConfig,ou=1.0,ou=OptOutMultiFactorAuthenticationNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/9367e519-ab81-40ed-9c31-2e65a0e4f472",
+    "_type" : {
+      "_id" : "OptOutMultiFactorAuthenticationNode",
+      "name" : "OptOutMultiFactorAuthenticationNode",
+      "collection" : false
+    }
+  }
+}

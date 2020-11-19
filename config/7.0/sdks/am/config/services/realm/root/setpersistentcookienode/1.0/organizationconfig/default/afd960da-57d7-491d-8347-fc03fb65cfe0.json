@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "SetPersistentCookieNode",
+    "entityId" : "default/afd960da-57d7-491d-8347-fc03fb65cfe0",
+    "uid" : "ou=afd960da-57d7-491d-8347-fc03fb65cfe0,ou=default,ou=OrganizationConfig,ou=1.0,ou=SetPersistentCookieNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/afd960da-57d7-491d-8347-fc03fb65cfe0",
+    "_type" : {
+      "_id" : "SetPersistentCookieNode",
+      "name" : "SetPersistentCookieNode",
+      "collection" : false
+    },
+    "useHttpOnlyCookie" : true,
+    "useSecureCookie" : true,
+    "persistentCookieName" : "session-jwt",
+    "idleTimeout" : 5,
+    "maxLife" : 5,
+    "hmacSigningKey" : "AQICkZpLRFUNdMlLy3p09Q/AYzK2k7AOtSbdydATkmvMPldrQeOSHRiu+YdAOGrrfbDQxV3DkTQo1mw="
+  }
+}

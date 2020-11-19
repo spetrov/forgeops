@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "SelectIdPNode",
+    "entityId" : "default/7656c02e-2aba-4c23-9c6b-8bdeb512dcf2",
+    "uid" : "ou=7656c02e-2aba-4c23-9c6b-8bdeb512dcf2,ou=default,ou=OrganizationConfig,ou=1.0,ou=SelectIdPNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "7656c02e-2aba-4c23-9c6b-8bdeb512dcf2" ]
+  },
+  "data" : {
+    "_id" : "default/7656c02e-2aba-4c23-9c6b-8bdeb512dcf2",
+    "_type" : {
+      "_id" : "SelectIdPNode",
+      "name" : "SelectIdPNode",
+      "collection" : false
+    },
+    "includeLocalAuthentication" : true,
+    "offerOnlyExisting" : false,
+    "passwordAttribute" : "password",
+    "identityAttribute" : "mail"
+  }
+}

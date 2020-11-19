@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "PasswordCollectorNode",
+    "entityId" : "default/d10ad58e-d58e-44dc-aba8-f1c83a51dba6",
+    "uid" : "ou=d10ad58e-d58e-44dc-aba8-f1c83a51dba6,ou=default,ou=OrganizationConfig,ou=1.0,ou=PasswordCollectorNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/d10ad58e-d58e-44dc-aba8-f1c83a51dba6",
+    "_type" : {
+      "_id" : "PasswordCollectorNode",
+      "name" : "PasswordCollectorNode",
+      "collection" : false
+    }
+  }
+}

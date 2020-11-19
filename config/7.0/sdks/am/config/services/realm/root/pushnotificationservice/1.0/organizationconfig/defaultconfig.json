@@ -1,0 +1,30 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "PushNotificationService",
+    "entityId" : "defaultconfig",
+    "uid" : "ou=defaultconfig,ou=OrganizationConfig,ou=1.0,ou=PushNotificationService,ou=services,ou=am-config",
+    "sunServiceID" : null,
+    "objectClass" : [ "organizationalunit", "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "defaultconfig" ]
+  },
+  "data" : {
+    "_id" : "defaultconfig",
+    "_type" : {
+      "_id" : "PushNotificationService",
+      "name" : "PushNotificationService",
+      "collection" : false
+    },
+    "accessKey" : "AKIA3256VZLKRILH66XM",
+    "region" : "us-east-1",
+    "RequiredValueValidator" : "com.sun.identity.sm.RequiredValueValidator",
+    "appleEndpoint" : "arn:aws:sns:us-east-1:813759318741:app/APNS/acme-production-ios",
+    "delegateFactory" : "org.forgerock.openam.services.push.sns.SnsHttpDelegateFactory",
+    "googleEndpoint" : "arn:aws:sns:us-east-1:813759318741:app/GCM/acme-production-android",
+    "mdCacheSize" : 10000,
+    "mdDuration" : 120,
+    "mdConcurrency" : 16,
+    "secret" : "AQICtQCd/mLIo0GRHDW9DbRoLPW39UeJ5pPYpw2vcJtpt+2yzsisXmstWIec8q6K3yDSZ+8waM76SxE="
+  }
+}

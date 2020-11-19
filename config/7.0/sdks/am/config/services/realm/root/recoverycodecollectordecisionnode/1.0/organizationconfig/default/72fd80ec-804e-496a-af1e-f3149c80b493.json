@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "RecoveryCodeCollectorDecisionNode",
+    "entityId" : "default/72fd80ec-804e-496a-af1e-f3149c80b493",
+    "uid" : "ou=72fd80ec-804e-496a-af1e-f3149c80b493,ou=default,ou=OrganizationConfig,ou=1.0,ou=RecoveryCodeCollectorDecisionNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/72fd80ec-804e-496a-af1e-f3149c80b493",
+    "_type" : {
+      "_id" : "RecoveryCodeCollectorDecisionNode",
+      "name" : "RecoveryCodeCollectorDecisionNode",
+      "collection" : false
+    },
+    "recoveryCodeType" : "WEB_AUTHN"
+  }
+}

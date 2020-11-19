@@ -1,0 +1,66 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/RecaptchaCallbackTest",
+    "uid" : "ou=RecaptchaCallbackTest,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "RecaptchaCallbackTest" ]
+  },
+  "data" : {
+    "_id" : "default/RecaptchaCallbackTest",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "2b5a97da-e833-4761-bc60-7bfc3f8f093e",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 566,
+        "y" : 207
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 448,
+        "y" : 211
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "2b5a97da-e833-4761-bc60-7bfc3f8f093e" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 138,
+        "y" : 32,
+        "connections" : {
+          "outcome" : "e473903e-d398-45d3-a260-a4e6c92701c0"
+        }
+      },
+      "e473903e-d398-45d3-a260-a4e6c92701c0" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 342,
+        "y" : 35,
+        "connections" : {
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "true" : "9fd29cbc-1ac5-4766-aab4-7a77fd7ca3fd"
+        }
+      },
+      "9fd29cbc-1ac5-4766-aab4-7a77fd7ca3fd" : {
+        "displayName" : "CAPTCHA",
+        "nodeType" : "product-ReCaptchaNode",
+        "x" : 555,
+        "y" : 63,
+        "connections" : {
+          "outcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    }
+  }
+}

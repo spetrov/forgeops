@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "RecoveryCodeCollectorDecisionNode",
+    "entityId" : "default/afded543-4fbb-45b4-aa43-de4c58634887",
+    "uid" : "ou=afded543-4fbb-45b4-aa43-de4c58634887,ou=default,ou=OrganizationConfig,ou=1.0,ou=RecoveryCodeCollectorDecisionNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/afded543-4fbb-45b4-aa43-de4c58634887",
+    "_type" : {
+      "_id" : "RecoveryCodeCollectorDecisionNode",
+      "name" : "RecoveryCodeCollectorDecisionNode",
+      "collection" : false
+    },
+    "recoveryCodeType" : "OATH"
+  }
+}

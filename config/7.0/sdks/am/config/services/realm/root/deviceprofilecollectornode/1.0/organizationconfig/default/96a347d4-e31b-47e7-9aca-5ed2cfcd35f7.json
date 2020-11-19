@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "DeviceProfileCollectorNode",
+    "entityId" : "default/96a347d4-e31b-47e7-9aca-5ed2cfcd35f7",
+    "uid" : "ou=96a347d4-e31b-47e7-9aca-5ed2cfcd35f7,ou=default,ou=OrganizationConfig,ou=1.0,ou=DeviceProfileCollectorNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "96a347d4-e31b-47e7-9aca-5ed2cfcd35f7" ]
+  },
+  "data" : {
+    "_id" : "default/96a347d4-e31b-47e7-9aca-5ed2cfcd35f7",
+    "_type" : {
+      "_id" : "DeviceProfileCollectorNode",
+      "name" : "DeviceProfileCollectorNode",
+      "collection" : false
+    },
+    "deviceMetadata" : true,
+    "message" : {
+      "en" : "Collecting profile ..."
+    },
+    "deviceLocation" : true,
+    "maximumSize" : "3"
+  }
+}

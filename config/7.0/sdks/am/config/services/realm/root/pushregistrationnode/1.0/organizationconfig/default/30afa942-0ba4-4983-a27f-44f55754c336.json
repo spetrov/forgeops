@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "PushRegistrationNode",
+    "entityId" : "default/30afa942-0ba4-4983-a27f-44f55754c336",
+    "uid" : "ou=30afa942-0ba4-4983-a27f-44f55754c336,ou=default,ou=OrganizationConfig,ou=1.0,ou=PushRegistrationNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "30afa942-0ba4-4983-a27f-44f55754c336" ]
+  },
+  "data" : {
+    "_id" : "default/30afa942-0ba4-4983-a27f-44f55754c336",
+    "_type" : {
+      "_id" : "PushRegistrationNode",
+      "name" : "PushRegistrationNode",
+      "collection" : false
+    },
+    "bgColor" : "032b75",
+    "timeout" : 60,
+    "generateRecoveryCodes" : true,
+    "issuer" : "ForgeRock",
+    "accountName" : "COMMON_NAME",
+    "imgUrl" : null
+  }
+}

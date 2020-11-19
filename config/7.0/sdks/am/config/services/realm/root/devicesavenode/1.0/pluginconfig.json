@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "DeviceSaveNode",
+    "entityId" : "PluginConfig",
+    "uid" : "ou=PluginConfig,ou=1.0,ou=DeviceSaveNode,ou=services,ou=am-config",
+    "sunServiceID" : null,
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "PluginConfig",
+    "_type" : {
+      "_id" : "DeviceSaveNode",
+      "name" : "DeviceSaveNode",
+      "collection" : false
+    }
+  }
+}

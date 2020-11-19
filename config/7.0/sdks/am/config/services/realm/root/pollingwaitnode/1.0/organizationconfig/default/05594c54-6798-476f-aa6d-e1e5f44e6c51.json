@@ -1,0 +1,28 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "PollingWaitNode",
+    "entityId" : "default/05594c54-6798-476f-aa6d-e1e5f44e6c51",
+    "uid" : "ou=05594c54-6798-476f-aa6d-e1e5f44e6c51,ou=default,ou=OrganizationConfig,ou=1.0,ou=PollingWaitNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "05594c54-6798-476f-aa6d-e1e5f44e6c51" ]
+  },
+  "data" : {
+    "_id" : "default/05594c54-6798-476f-aa6d-e1e5f44e6c51",
+    "_type" : {
+      "_id" : "PollingWaitNode",
+      "name" : "PollingWaitNode",
+      "collection" : false
+    },
+    "spamDetectionEnabled" : false,
+    "exitable" : true,
+    "spamDetectionTolerance" : 3,
+    "waitingMessage" : { },
+    "secondsToWait" : 5,
+    "exitMessage" : {
+      "en" : "Use recovery code"
+    }
+  }
+}

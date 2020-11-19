@@ -1,0 +1,98 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/SocialLogin",
+    "uid" : "ou=SocialLogin,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "SocialLogin" ]
+  },
+  "data" : {
+    "_id" : "default/SocialLogin",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "9457a7b8-e3df-455a-9b10-79f34003fdfa",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 1095,
+        "y" : 162
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 1118,
+        "y" : 60
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "9457a7b8-e3df-455a-9b10-79f34003fdfa" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 159,
+        "y" : 71,
+        "connections" : {
+          "socialAuthentication" : "94240f56-d84f-4e93-a055-8dd5c870df3b",
+          "localAuthentication" : "c3a70263-9828-4cc5-9941-a90fa71337c7"
+        }
+      },
+      "94240f56-d84f-4e93-a055-8dd5c870df3b" : {
+        "displayName" : "Social Provider Handler Node",
+        "nodeType" : "SocialProviderHandlerNode",
+        "x" : 383,
+        "y" : 74,
+        "connections" : {
+          "ACCOUNT_EXISTS" : "c9661978-230f-4291-bb8e-3cdd5fa19b85",
+          "NO_ACCOUNT" : "c9661978-230f-4291-bb8e-3cdd5fa19b85"
+        }
+      },
+      "c3a70263-9828-4cc5-9941-a90fa71337c7" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 391,
+        "y" : 300.375,
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "c9661978-230f-4291-bb8e-3cdd5fa19b85" : {
+        "displayName" : "Identify Existing User",
+        "nodeType" : "IdentifyExistingUserNode",
+        "x" : 637,
+        "y" : 113,
+        "connections" : {
+          "true" : "c2bd8270-a6d6-4690-ad9c-4848ecc62657",
+          "false" : "679861c9-126b-46b3-90a8-e9a278aac10d"
+        }
+      },
+      "679861c9-126b-46b3-90a8-e9a278aac10d" : {
+        "displayName" : "Create Object",
+        "nodeType" : "CreateObjectNode",
+        "x" : 836,
+        "y" : 75,
+        "connections" : {
+          "CREATED" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "FAILURE" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "c2bd8270-a6d6-4690-ad9c-4848ecc62657" : {
+        "displayName" : "Patch Object",
+        "nodeType" : "PatchObjectNode",
+        "x" : 845,
+        "y" : 200,
+        "connections" : {
+          "PATCHED" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "FAILURE" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    }
+  }
+}

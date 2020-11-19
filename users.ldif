@@ -1,0 +1,131 @@
+dn: ou=identities
+objectClass: top
+objectClass: untypedObject
+ou: identities
+aci: (targetattr="*||aci")(version 3.0; acl "Read, write and proxy identities"; allow (all, proxy)(userdn = "ldap:///uid=am-identity-bind-account,ou=admins,ou=identities");)
+aci: (targetattr="+")(version 3.0; acl "Read operational attributes"; allow (read, search, compare)(userdn = "ldap:///uid=am-identity-bind-account,ou=admins,ou=identities");)
+aci: (targetcontrol="PersistentSearch||ProxiedAuth")(version 3.0;acl "Persistent searches and proxy auth"; allow (read)(userdn = "ldap:///uid=am-identity-bind-account,ou=admins,ou=identities");)
+aci: (targetattr="userPassword") (version 3.0; acl "Allow password change"; allow (write) userdn="ldap:///self";)
+ds-sync-generation-id: 64947
+ds-sync-state: 010b01755287007000001f25ds-idrepo-0
+entryUUID: 1bf32cf0-ef2d-3411-bb47-2bb9d264df74
+
+dn: ou=people,ou=identities
+objectClass: organizationalunit
+objectClass: top
+ou: people
+entryUUID: 95c12604-35ef-3d62-9663-994b51ab6142
+
+dn: ou=groups,ou=identities
+objectClass: organizationalunit
+objectClass: top
+ou: groups
+entryUUID: 1c0efb3f-af77-3266-8f68-e35395514b0b
+
+dn: ou=admins,ou=identities
+objectClass: organizationalunit
+objectClass: top
+ou: admins
+entryUUID: 1daa0222-a0e3-38c2-aa5b-595bd3c6419f
+
+dn: uid=am-identity-bind-account,ou=admins,ou=identities
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: am-identity-bind-account
+sn: am-identity-bind-account
+uid: am-identity-bind-account
+userPassword: {PBKDF2-HMAC-SHA256}10:sgDBbkFt8F79wOjMShcHVHmNzuvLjDXLC7gccCWJ86IQmXplgzz0esajWtoLrXD8
+ds-privilege-name: password-reset
+ds-privilege-name: proxied-auth
+ds-privilege-name: modify-acl
+ds-sync-hist: userPassword:010b0175526e1c6e00000034ds-idrepo-0:repl:{PBKDF2-HMAC-SHA256}10:sgDBbkFt8F79wOjMShcHVHmNzuvLjDXLC7gccCWJ86IQmXplgzz0esajWtoLrXD8
+ds-sync-hist: modifiersName:010b0175526e1c6e00000035ds-idrepo-0:repl:cn=Internal Client
+ds-sync-hist: modifyTimestamp:010b0175526e1c6e00000035ds-idrepo-0:repl:20201022222909Z
+ds-sync-hist: pwdChangedTime:010b0175526e1c6e00000035ds-idrepo-0:repl:20201022222909.358Z
+entryUUID: 71fdce30-43cf-3f1a-9953-9b67fb707917
+modifiersName: cn=Internal Client
+modifyTimestamp: 20201022222909Z
+pwdChangedTime: 20201022222909.358Z
+
+dn: fr-idm-uuid=75d38278-6c4d-483a-9891-db7f3b9c7a99,ou=people,ou=identities
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+objectClass: iplanet-am-user-service
+objectClass: devicePrintProfilesContainer
+objectClass: kbaInfoContainer
+objectClass: fr-idm-managed-user-explicit
+objectClass: forgerock-am-dashboard-service
+objectClass: inetuser
+objectClass: iplanet-am-auth-configuration-service
+objectClass: iplanet-am-managed-person
+objectClass: iPlanetPreferences
+objectClass: oathDeviceProfilesContainer
+objectClass: pushDeviceProfilesContainer
+objectClass: sunAMAuthAccountLockout
+objectClass: sunFMSAML2NameIdentifier
+objectClass: webauthnDeviceProfilesContainer
+objectClass: fr-idm-managed-user-hybrid-obj
+objectClass: top
+cn: Sdk User
+co: Canada
+description: Test SDK user
+fr-idm-kbaInfo: {"answer":{"$crypto":{"value":{"algorithm":"SHA-256","data":"5zJWPTlGeVF9ydoW7ktZJkBBaquzcA+FQ8E26BDe1LHVeVh26S49byW4zXKUsnGW"},"type":"salted-hash"}},"questionId":"1"}
+fr-idm-kbaInfo: {"answer":{"$crypto":{"value":{"algorithm":"SHA-256","data":"bm7XeqRFIwUMzav4Ei4qww+gR0xOu05o9GlvZsoqDi2Q2CdsKfnotvLEOZs7aJD2"},"type":"salted-hash"}},"questionId":"2"}
+fr-idm-managed-user-custom-attrs: {"age":30}
+fr-idm-managed-user-meta: {"firstResourceCollection":"managed/user","firstResourceId":"75d38278-6c4d-483a-9891-db7f3b9c7a99","firstPropertyName":"_meta","secondResourceCollection":"internal/usermeta","secondResourceId":"9a04a55f-9eb5-4c14-a788-232468ccec92","secondPropertyName":null,"properties":null,"_rev":"0000000094539ef9","_id":"e4863067-68e4-4934-87d4-e3e962815550"}uid=9a04a55f-9eb5-4c14-a788-232468ccec92,ou=usermeta,ou=internal,dc=openidm,dc=forgerock,dc=io
+fr-idm-preferences: {"updates":false,"marketing":false}
+fr-idm-uuid: 75d38278-6c4d-483a-9891-db7f3b9c7a99
+givenName: Sdk
+inetUserStatus: active
+l: Courtenay
+mail: sdkuser@example.com
+postalCode: V9N9P3
+sn: User
+st: BC
+street: 3337 Fraser Road
+telephoneNumber: 7788888888
+uid: sdkuser
+userPassword: {PBKDF2-HMAC-SHA256}10:bt7prLhL6khBS6SXc9wXeaJzKDRxc0jt1gsjPdqZd+NZjs8k5kaOnSLhSdvvRL/e
+createTimestamp: 20201022224356Z
+creatorsName: uid=admin
+ds-sync-hist: description:010b0175527d153f000013bcds-idrepo-0:repl:Test SDK user
+ds-sync-hist: co:010b0175527d153f000013bcds-idrepo-0:repl:Canada
+ds-sync-hist: l:010b0175527d153f000013bcds-idrepo-0:repl:Courtenay
+ds-sync-hist: postalCode:010b0175527d153f000013bcds-idrepo-0:repl:V9N9P3
+ds-sync-hist: fr-idm-managed-user-meta:010b0175527ba6b5000011e5ds-idrepo-0:repl:{"firstResourceCollection":"managed/user","firstResourceId":"75d38278-6c4d-483a-9891-db7f3b9c7a99","firstPropertyName":"_meta","secondResourceCollection":"internal/usermeta","secondResourceId":"9a04a55f-9eb5-4c14-a788-232468ccec92","secondPropertyName":null,"properties":null,"_rev":"0000000094539ef9","_id":"e4863067-68e4-4934-87d4-e3e962815550"}uid=9a04a55f-9eb5-4c14-a788-232468ccec92,ou=usermeta,ou=internal,dc=openidm,dc=forgerock,dc=io
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:person
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:organizationalPerson
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:inetOrgPerson
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:iplanet-am-user-service
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:devicePrintProfilesContainer
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:kbaInfoContainer
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:fr-idm-managed-user-explicit
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:forgerock-am-dashboard-service
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:inetuser
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:iplanet-am-auth-configuration-service
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:iplanet-am-managed-person
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:iPlanetPreferences
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:oathDeviceProfilesContainer
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:pushDeviceProfilesContainer
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:sunAMAuthAccountLockout
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:sunFMSAML2NameIdentifier
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:webauthnDeviceProfilesContainer
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:fr-idm-managed-user-hybrid-obj
+ds-sync-hist: objectClass:010b0175527ba6b5000011e5ds-idrepo-0:add:top
+ds-sync-hist: modifiersName:010b0175528129fe000018fbds-idrepo-0:repl:uid=admin
+ds-sync-hist: fr-idm-kbaInfo:010b0175528129fe000018fbds-idrepo-0:repl:{"answer":{"$crypto":{"value":{"algorithm":"SHA-256","data":"5zJWPTlGeVF9ydoW7ktZJkBBaquzcA+FQ8E26BDe1LHVeVh26S49byW4zXKUsnGW"},"type":"salted-hash"}},"questionId":"1"}
+ds-sync-hist: fr-idm-kbaInfo:010b0175528129fe000018fbds-idrepo-0:add:{"answer":{"$crypto":{"value":{"algorithm":"SHA-256","data":"bm7XeqRFIwUMzav4Ei4qww+gR0xOu05o9GlvZsoqDi2Q2CdsKfnotvLEOZs7aJD2"},"type":"salted-hash"}},"questionId":"2"}
+ds-sync-hist: modifyTimestamp:010b0175528129fe000018fbds-idrepo-0:repl:20201022224958Z
+ds-sync-hist: street:010b0175527d153f000013bcds-idrepo-0:repl:3337 Fraser Road
+ds-sync-hist: telephoneNumber:010b0175527d153f000013bcds-idrepo-0:repl:7788888888
+ds-sync-hist: fr-idm-managed-user-custom-attrs:010b0175527d153f000013bcds-idrepo-0:repl:{"age":30}
+ds-sync-hist: st:010b0175527d153f000013bcds-idrepo-0:repl:BC
+ds-sync-hist: dn:010b0175527ba6b5000011e0ds-idrepo-0:add
+entryUUID: 8e4a39d4-039f-44cf-a901-bd0272d5c43f
+modifiersName: uid=admin
+modifyTimestamp: 20201022224958Z
+pwdChangedTime: 20201022224356.725Z
+

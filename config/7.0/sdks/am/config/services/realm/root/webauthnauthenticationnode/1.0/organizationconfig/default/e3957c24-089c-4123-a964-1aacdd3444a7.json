@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "WebAuthnAuthenticationNode",
+    "entityId" : "default/e3957c24-089c-4123-a964-1aacdd3444a7",
+    "uid" : "ou=e3957c24-089c-4123-a964-1aacdd3444a7,ou=default,ou=OrganizationConfig,ou=1.0,ou=WebAuthnAuthenticationNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "e3957c24-089c-4123-a964-1aacdd3444a7" ]
+  },
+  "data" : {
+    "_id" : "default/e3957c24-089c-4123-a964-1aacdd3444a7",
+    "_type" : {
+      "_id" : "WebAuthnAuthenticationNode",
+      "name" : "WebAuthnAuthenticationNode",
+      "collection" : false
+    },
+    "timeout" : 60,
+    "asScript" : true,
+    "origins" : [ ],
+    "isRecoveryCodeAllowed" : true,
+    "requiresResidentKey" : false,
+    "userVerificationRequirement" : "PREFERRED"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "UsernameCollectorNode",
+    "entityId" : "default/cbd55733-fa00-4666-9c1a-46efbb1bb580",
+    "uid" : "ou=cbd55733-fa00-4666-9c1a-46efbb1bb580,ou=default,ou=OrganizationConfig,ou=1.0,ou=UsernameCollectorNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/cbd55733-fa00-4666-9c1a-46efbb1bb580",
+    "_type" : {
+      "_id" : "UsernameCollectorNode",
+      "name" : "UsernameCollectorNode",
+      "collection" : false
+    }
+  }
+}

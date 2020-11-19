@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "PollingWaitNode",
+    "entityId" : "default/ea4fb5fc-bd78-4ed2-9bc3-be099ca9e424",
+    "uid" : "ou=ea4fb5fc-bd78-4ed2-9bc3-be099ca9e424,ou=default,ou=OrganizationConfig,ou=1.0,ou=PollingWaitNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "ea4fb5fc-bd78-4ed2-9bc3-be099ca9e424" ]
+  },
+  "data" : {
+    "_id" : "default/ea4fb5fc-bd78-4ed2-9bc3-be099ca9e424",
+    "_type" : {
+      "_id" : "PollingWaitNode",
+      "name" : "PollingWaitNode",
+      "collection" : false
+    },
+    "waitingMessage" : { },
+    "spamDetectionEnabled" : false,
+    "exitMessage" : { },
+    "spamDetectionTolerance" : 3,
+    "exitable" : false,
+    "secondsToWait" : 1
+  }
+}

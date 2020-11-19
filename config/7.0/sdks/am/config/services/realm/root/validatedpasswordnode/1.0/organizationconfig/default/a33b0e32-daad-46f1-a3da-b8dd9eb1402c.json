@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "ValidatedPasswordNode",
+    "entityId" : "default/a33b0e32-daad-46f1-a3da-b8dd9eb1402c",
+    "uid" : "ou=a33b0e32-daad-46f1-a3da-b8dd9eb1402c,ou=default,ou=OrganizationConfig,ou=1.0,ou=ValidatedPasswordNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/a33b0e32-daad-46f1-a3da-b8dd9eb1402c",
+    "_type" : {
+      "_id" : "ValidatedPasswordNode",
+      "name" : "ValidatedPasswordNode",
+      "collection" : false
+    },
+    "validateInput" : false,
+    "passwordAttribute" : "password"
+  }
+}

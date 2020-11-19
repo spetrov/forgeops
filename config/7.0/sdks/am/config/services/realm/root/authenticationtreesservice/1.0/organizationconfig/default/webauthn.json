@@ -1,0 +1,140 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/WebAuthn",
+    "uid" : "ou=WebAuthn,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "WebAuthn" ]
+  },
+  "data" : {
+    "_id" : "default/WebAuthn",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "96ba9ebd-5472-4ed4-a494-1539821d15e9",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 1002,
+        "y" : 40
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 1023,
+        "y" : 338
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "96ba9ebd-5472-4ed4-a494-1539821d15e9" : {
+        "displayName" : "Username Collector",
+        "nodeType" : "UsernameCollectorNode",
+        "x" : 127,
+        "y" : 47.75,
+        "connections" : {
+          "outcome" : "e3957c24-089c-4123-a964-1aacdd3444a7"
+        }
+      },
+      "e3957c24-089c-4123-a964-1aacdd3444a7" : {
+        "displayName" : "WebAuthn Authentication Node",
+        "nodeType" : "WebAuthnAuthenticationNode",
+        "x" : 117,
+        "y" : 129,
+        "connections" : {
+          "unsupported" : "dcad2945-7198-43b5-ab53-46d27b1f9d9c",
+          "noDevice" : "aec2420b-a6e8-4a98-bfe2-1c07a021d059",
+          "success" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "failure" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "error" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "recoveryCode" : "72fd80ec-804e-496a-af1e-f3149c80b493"
+        }
+      },
+      "dcad2945-7198-43b5-ab53-46d27b1f9d9c" : {
+        "displayName" : "Password Collector",
+        "nodeType" : "PasswordCollectorNode",
+        "x" : 394,
+        "y" : 74,
+        "connections" : {
+          "outcome" : "a59b17a5-1f2b-4056-99d6-6b7daf49f2fb"
+        }
+      },
+      "aec2420b-a6e8-4a98-bfe2-1c07a021d059" : {
+        "displayName" : "Password Collector",
+        "nodeType" : "PasswordCollectorNode",
+        "x" : 393,
+        "y" : 181,
+        "connections" : {
+          "outcome" : "ce352352-e909-4ae4-b3b1-fef1e3e2ac54"
+        }
+      },
+      "a59b17a5-1f2b-4056-99d6-6b7daf49f2fb" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 571,
+        "y" : 61.375,
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "ce352352-e909-4ae4-b3b1-fef1e3e2ac54" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 567,
+        "y" : 183.375,
+        "connections" : {
+          "true" : "08dffe79-3626-4883-9f59-029a20629332",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "451a30e0-0fa6-4877-a3cf-06bc7fe2b089" : {
+        "displayName" : "Recovery Code Display Node",
+        "nodeType" : "RecoveryCodeDisplayNode",
+        "x" : 737,
+        "y" : 313,
+        "connections" : {
+          "outcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "08dffe79-3626-4883-9f59-029a20629332" : {
+        "displayName" : "Choice Collector",
+        "nodeType" : "ChoiceCollectorNode",
+        "x" : 507,
+        "y" : 299,
+        "connections" : {
+          "Yes" : "9acf8b1b-b8d2-4793-95a3-47044ea86327",
+          "No" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "9acf8b1b-b8d2-4793-95a3-47044ea86327" : {
+        "displayName" : "WebAuthn Registration Node",
+        "nodeType" : "WebAuthnRegistrationNode",
+        "x" : 504,
+        "y" : 439,
+        "connections" : {
+          "unsupported" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "success" : "451a30e0-0fa6-4877-a3cf-06bc7fe2b089",
+          "failure" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "error" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "72fd80ec-804e-496a-af1e-f3149c80b493" : {
+        "displayName" : "Recovery Code Collector Decision",
+        "nodeType" : "RecoveryCodeCollectorDecisionNode",
+        "x" : 163,
+        "y" : 384,
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "ScriptingService",
+    "entityId" : "default/scriptConfigurations/05a7aa16-2f77-4f76-9bec-f4ed4054722b",
+    "uid" : "ou=05a7aa16-2f77-4f76-9bec-f4ed4054722b,ou=scriptConfigurations,ou=default,ou=OrganizationConfig,ou=1.0,ou=ScriptingService,ou=services,ou=am-config",
+    "sunServiceID" : "scriptConfiguration",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "05a7aa16-2f77-4f76-9bec-f4ed4054722b" ]
+  },
+  "data" : {
+    "_id" : "default/scriptConfigurations/05a7aa16-2f77-4f76-9bec-f4ed4054722b",
+    "_type" : {
+      "_id" : "ScriptingService",
+      "name" : "ScriptingService",
+      "collection" : false
+    },
+    "createdBy" : "null",
+    "lastModifiedDate" : "0",
+    "lastModifiedBy" : "null",
+    "name" : "MetadataCallback: UsernamePassword",
+    "context" : "AUTHENTICATION_TREE_DECISION_NODE",
+    "description" : null,
+    "language" : "JAVASCRIPT",
+    "creationDate" : "0",
+    "script" : "dmFyIGZyID0gSmF2YUltcG9ydGVyKAogIG9yZy5mb3JnZXJvY2suanNvbi5Kc29uVmFsdWUsCiAgb3JnLmZvcmdlcm9jay5vcGVuYW0uYXV0aC5ub2RlLmFwaS5BY3Rpb24sCiAgY29tLnN1bi5pZGVudGl0eS5hdXRoZW50aWNhdGlvbi5zcGkuTWV0YWRhdGFDYWxsYmFjawopOwp3aXRoIChmcikgewogIHZhciBqc29uID0gSnNvblZhbHVlLmpzb24oeyBzdGFnZTogIlVzZXJuYW1lUGFzc3dvcmQiIH0pOwogIGFjdGlvbiA9IEFjdGlvbi5zZW5kKG5ldyBNZXRhZGF0YUNhbGxiYWNrKGpzb24pKS5idWlsZCgpOwp9Cm91dGNvbWUgPSAidHJ1ZSI7"
+  }
+}

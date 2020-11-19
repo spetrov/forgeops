@@ -1,0 +1,88 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "&{version}",
+    "entityType" : "OAuth2Clients",
+    "entityId" : "WebOAuthClient",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "WebOAuthClient",
+    "advancedOAuth2ClientConfig" : {
+      "contacts" : [ ],
+      "clientUri" : [ ],
+      "responseTypes" : [ "code", "token", "id_token", "code token", "token id_token", "code id_token", "code token id_token", "device_code", "device_code id_token" ],
+      "sectorIdentifierUri" : null,
+      "tokenEndpointAuthMethod" : "none",
+      "isConsentImplied" : true,
+      "updateAccessToken" : null,
+      "requestUris" : [ ],
+      "logoUri" : [ ],
+      "subjectType" : "public",
+      "name" : [ ],
+      "descriptions" : [ ],
+      "policyUri" : [ ],
+      "mixUpMitigation" : false,
+      "grantTypes" : [ "authorization_code" ],
+      "javascriptOrigins" : [ ]
+    },
+    "coreOAuth2ClientConfig" : {
+      "scopes" : [ "openid", "profile", "me.read" ],
+      "status" : "Active",
+      "loopbackInterfaceRedirection" : false,
+      "redirectionUris" : [ "https://sdkapp.example.com:8443/_callback/", "https://sdkapp.petrov.ca:8443/_callback/", "https://sdkapp.petrov.ca/_callback/" ],
+      "authorizationCodeLifetime" : 0,
+      "accessTokenLifetime" : 0,
+      "refreshTokenLifetime" : 0,
+      "clientName" : [ ],
+      "defaultScopes" : [ ],
+      "agentgroup" : null,
+      "clientType" : "Public"
+    },
+    "coreOpenIDClientConfig" : {
+      "defaultMaxAgeEnabled" : false,
+      "claims" : [ "openid", "profile", "me.read" ],
+      "clientSessionUri" : null,
+      "defaultMaxAge" : 600,
+      "postLogoutRedirectUri" : [ ],
+      "jwtTokenLifetime" : 0,
+      "defaultAcrValues" : [ ]
+    },
+    "signEncOAuth2ClientConfig" : {
+      "userinfoEncryptedResponseEncryptionAlgorithm" : "A128CBC-HS256",
+      "requestParameterEncryptedEncryptionAlgorithm" : "A128CBC-HS256",
+      "userinfoSignedResponseAlg" : null,
+      "clientJwtPublicKey" : null,
+      "idTokenEncryptionAlgorithm" : "RSA-OAEP-256",
+      "jwksUri" : null,
+      "requestParameterEncryptedAlg" : null,
+      "idTokenSignedResponseAlg" : "RS256",
+      "jwksCacheTimeout" : 3600000,
+      "idTokenEncryptionEnabled" : false,
+      "mTLSTrustedCert" : null,
+      "idTokenPublicEncryptionKey" : null,
+      "tokenIntrospectionResponseFormat" : "JSON",
+      "tokenEndpointAuthSigningAlgorithm" : "RS256",
+      "mTLSCertificateBoundAccessTokens" : false,
+      "tokenIntrospectionEncryptedResponseAlg" : "RSA-OAEP-256",
+      "jwkSet" : null,
+      "jwkStoreCacheMissCacheTime" : 60000,
+      "tokenIntrospectionEncryptedResponseEncryptionAlgorithm" : "A128CBC-HS256",
+      "tokenIntrospectionSignedResponseAlg" : "RS256",
+      "userinfoEncryptedResponseAlg" : null,
+      "mTLSSubjectDN" : null,
+      "publicKeyLocation" : "jwks_uri",
+      "userinfoResponseFormat" : "JSON",
+      "idTokenEncryptionMethod" : "A128CBC-HS256",
+      "requestParameterSignedAlg" : null
+    },
+    "coreUmaClientConfig" : {
+      "claimsRedirectionUris" : [ ]
+    },
+    "_type" : {
+      "_id" : "OAuth2Client",
+      "name" : "OAuth2 Clients",
+      "collection" : true
+    }
+  }
+}

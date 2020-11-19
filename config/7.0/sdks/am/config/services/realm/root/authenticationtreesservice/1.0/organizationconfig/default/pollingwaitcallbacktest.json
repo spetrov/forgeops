@@ -1,0 +1,67 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/PollingWaitCallbackTest",
+    "uid" : "ou=PollingWaitCallbackTest,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "PollingWaitCallbackTest" ]
+  },
+  "data" : {
+    "_id" : "default/PollingWaitCallbackTest",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "75db6328-dd74-45b6-bb88-acd3cf22297b",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 709,
+        "y" : 125
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 533,
+        "y" : 243
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "75db6328-dd74-45b6-bb88-acd3cf22297b" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 143,
+        "y" : 30,
+        "connections" : {
+          "outcome" : "a289e880-2929-4683-84df-90a23f050e8e"
+        }
+      },
+      "a289e880-2929-4683-84df-90a23f050e8e" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 337,
+        "y" : 26.375,
+        "connections" : {
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "true" : "d862aa1f-918c-4981-ad61-842e065d58e1"
+        }
+      },
+      "d862aa1f-918c-4981-ad61-842e065d58e1" : {
+        "displayName" : "Polling Wait Node",
+        "nodeType" : "PollingWaitNode",
+        "x" : 513,
+        "y" : 26,
+        "connections" : {
+          "DONE" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "EXITED" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    }
+  }
+}

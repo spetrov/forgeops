@@ -1,0 +1,67 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/ChoiceCallbackTest",
+    "uid" : "ou=ChoiceCallbackTest,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "ChoiceCallbackTest" ]
+  },
+  "data" : {
+    "_id" : "default/ChoiceCallbackTest",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "62faaef9-549b-47c0-8f9e-446977e001d1",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 720,
+        "y" : 37
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 750,
+        "y" : 257
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "1b028862-484f-4f0b-a093-8d1ddad21f89" : {
+        "displayName" : "Choice Collector",
+        "nodeType" : "ChoiceCollectorNode",
+        "x" : 509,
+        "y" : 68,
+        "connections" : {
+          "Yes" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "No" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "62faaef9-549b-47c0-8f9e-446977e001d1" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 108,
+        "y" : 84,
+        "connections" : {
+          "outcome" : "c1c73893-c90c-402e-87c5-26f5ffec6350"
+        }
+      },
+      "c1c73893-c90c-402e-87c5-26f5ffec6350" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 310,
+        "y" : 119,
+        "connections" : {
+          "true" : "1b028862-484f-4f0b-a093-8d1ddad21f89",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}

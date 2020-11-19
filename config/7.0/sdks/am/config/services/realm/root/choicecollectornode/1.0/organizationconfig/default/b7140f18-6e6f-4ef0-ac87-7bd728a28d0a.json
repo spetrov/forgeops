@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "ChoiceCollectorNode",
+    "entityId" : "default/b7140f18-6e6f-4ef0-ac87-7bd728a28d0a",
+    "uid" : "ou=b7140f18-6e6f-4ef0-ac87-7bd728a28d0a,ou=default,ou=OrganizationConfig,ou=1.0,ou=ChoiceCollectorNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "b7140f18-6e6f-4ef0-ac87-7bd728a28d0a" ]
+  },
+  "data" : {
+    "_id" : "default/b7140f18-6e6f-4ef0-ac87-7bd728a28d0a",
+    "_type" : {
+      "_id" : "ChoiceCollectorNode",
+      "name" : "ChoiceCollectorNode",
+      "collection" : false
+    },
+    "choices" : [ "Yes" ],
+    "defaultChoice" : "Yes",
+    "prompt" : "Choice"
+  }
+}

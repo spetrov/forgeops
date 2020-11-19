@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "PageNode",
+    "entityId" : "default/741cde49-6053-462d-b7a1-0c98f3d36842",
+    "uid" : "ou=741cde49-6053-462d-b7a1-0c98f3d36842,ou=default,ou=OrganizationConfig,ou=1.0,ou=PageNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "741cde49-6053-462d-b7a1-0c98f3d36842" ]
+  },
+  "data" : {
+    "_id" : "default/741cde49-6053-462d-b7a1-0c98f3d36842",
+    "_type" : {
+      "_id" : "PageNode",
+      "name" : "PageNode",
+      "collection" : false
+    },
+    "pageHeader" : { },
+    "pageDescription" : { },
+    "nodes" : [ "c3aa4b03-f599-42a3-b464-5fb3c9aa82c7:UsernameCollectorNode:Username Collector", "d10ad58e-d58e-44dc-aba8-f1c83a51dba6:PasswordCollectorNode:Password Collector" ]
+  }
+}

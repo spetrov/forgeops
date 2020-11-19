@@ -1,0 +1,59 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/WebAuthnRegister",
+    "uid" : "ou=WebAuthnRegister,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "WebAuthnRegister" ]
+  },
+  "data" : {
+    "_id" : "default/WebAuthnRegister",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "f4bf8901-f6bc-4bcf-a3a6-5cdb8b1da0d8",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 790,
+        "y" : 181
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 720,
+        "y" : 25
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "f4bf8901-f6bc-4bcf-a3a6-5cdb8b1da0d8" : {
+        "displayName" : "Username Collector",
+        "nodeType" : "UsernameCollectorNode",
+        "x" : 91,
+        "y" : 100,
+        "connections" : {
+          "outcome" : "6fda6551-4cea-4213-b649-3b663399959f"
+        }
+      },
+      "6fda6551-4cea-4213-b649-3b663399959f" : {
+        "displayName" : "WebAuthn Registration Node",
+        "nodeType" : "WebAuthnRegistrationNode",
+        "x" : 278,
+        "y" : 128,
+        "connections" : {
+          "unsupported" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "failure" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "error" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "success" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    }
+  }
+}

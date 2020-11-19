@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "MultiFactorRegistrationOptionsNode",
+    "entityId" : "default/6cfe415f-6e19-488f-a9fa-27f4185b5af5",
+    "uid" : "ou=6cfe415f-6e19-488f-a9fa-27f4185b5af5,ou=default,ou=OrganizationConfig,ou=1.0,ou=MultiFactorRegistrationOptionsNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "6cfe415f-6e19-488f-a9fa-27f4185b5af5" ]
+  },
+  "data" : {
+    "_id" : "default/6cfe415f-6e19-488f-a9fa-27f4185b5af5",
+    "_type" : {
+      "_id" : "MultiFactorRegistrationOptionsNode",
+      "name" : "MultiFactorRegistrationOptionsNode",
+      "collection" : false
+    },
+    "getApp" : true,
+    "optOutLabel" : { },
+    "getAppLabel" : { },
+    "skipStepLabel" : { },
+    "message" : { },
+    "registerDeviceLabel" : { },
+    "mandatory" : false
+  }
+}

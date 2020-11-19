@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "product-ReCaptchaNode",
+    "entityId" : "default/05be1059-1ad5-406c-a5d8-49ee45fe9cde",
+    "uid" : "ou=05be1059-1ad5-406c-a5d8-49ee45fe9cde,ou=default,ou=OrganizationConfig,ou=1.0,ou=product-ReCaptchaNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/05be1059-1ad5-406c-a5d8-49ee45fe9cde",
+    "_type" : {
+      "_id" : "product-ReCaptchaNode",
+      "name" : "product-ReCaptchaNode",
+      "collection" : false
+    },
+    "divClass" : "g-recaptcha",
+    "apiUri" : "https://www.google.com/recaptcha/api.js",
+    "reCaptchaUri" : "https://www.google.com/recaptcha/api/siteverify",
+    "siteKey" : "siteKey",
+    "secretKey" : "secretKey"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/ConfirmationCallbackTest",
+    "uid" : "ou=ConfirmationCallbackTest,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "ConfirmationCallbackTest" ]
+  },
+  "data" : {
+    "_id" : "default/ConfirmationCallbackTest",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "98dcbace-c62d-4854-9ea2-96542c8d306d",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 721,
+        "y" : 44
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 755,
+        "y" : 132
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "98dcbace-c62d-4854-9ea2-96542c8d306d" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 140,
+        "y" : 34,
+        "connections" : {
+          "outcome" : "e4ee8e29-7679-4725-a884-3e8e4f654efa"
+        }
+      },
+      "aba94648-08b7-41f1-bbd1-f7e10859018b" : {
+        "displayName" : "Message Node",
+        "nodeType" : "MessageNode",
+        "x" : 533,
+        "y" : 39,
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "e4ee8e29-7679-4725-a884-3e8e4f654efa" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 341,
+        "y" : 90,
+        "connections" : {
+          "true" : "aba94648-08b7-41f1-bbd1-f7e10859018b",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}

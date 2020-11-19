@@ -1,0 +1,66 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/ConsentMappingCallbackTest",
+    "uid" : "ou=ConsentMappingCallbackTest,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "ConsentMappingCallbackTest" ]
+  },
+  "data" : {
+    "_id" : "default/ConsentMappingCallbackTest",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "9a8a6eb7-3036-4757-b469-7bf59f1db99c",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 757,
+        "y" : 22
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 698,
+        "y" : 99
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "3281ef60-56d8-4612-9231-7626e8a598ae" : {
+        "displayName" : "Consent Collector",
+        "nodeType" : "ConsentNode",
+        "x" : 557,
+        "y" : 20,
+        "connections" : {
+          "outcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "9a8a6eb7-3036-4757-b469-7bf59f1db99c" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 162,
+        "y" : 21,
+        "connections" : {
+          "outcome" : "b683649f-3e41-4b7b-a4ce-807a70e95b00"
+        }
+      },
+      "b683649f-3e41-4b7b-a4ce-807a70e95b00" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 360,
+        "y" : 20,
+        "connections" : {
+          "true" : "3281ef60-56d8-4612-9231-7626e8a598ae",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}

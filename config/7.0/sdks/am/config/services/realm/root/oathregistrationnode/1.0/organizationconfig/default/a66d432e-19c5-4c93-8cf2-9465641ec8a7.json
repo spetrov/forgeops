@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "OathRegistrationNode",
+    "entityId" : "default/a66d432e-19c5-4c93-8cf2-9465641ec8a7",
+    "uid" : "ou=a66d432e-19c5-4c93-8cf2-9465641ec8a7,ou=default,ou=OrganizationConfig,ou=1.0,ou=OathRegistrationNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/a66d432e-19c5-4c93-8cf2-9465641ec8a7",
+    "_type" : {
+      "_id" : "OathRegistrationNode",
+      "name" : "OathRegistrationNode",
+      "collection" : false
+    },
+    "issuer" : "ForgeRock",
+    "totpHashAlgorithm" : "HMAC_SHA1",
+    "addChecksum" : false,
+    "truncationOffset" : -1,
+    "accountName" : "USERNAME",
+    "bgColor" : "032b75",
+    "imgUrl" : null,
+    "generateRecoveryCodes" : true,
+    "passwordLength" : "SIX_DIGITS",
+    "minSharedSecretLength" : 32,
+    "algorithm" : "TOTP",
+    "totpTimeInterval" : 30
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/PageCallback65Test",
+    "uid" : "ou=PageCallback65Test,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "PageCallback65Test" ]
+  },
+  "data" : {
+    "_id" : "default/PageCallback65Test",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "e5bda81e-2508-4c7a-a15c-0e17684cd7f8",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 538,
+        "y" : 23
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 516,
+        "y" : 214
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "e5bda81e-2508-4c7a-a15c-0e17684cd7f8" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 147,
+        "y" : 63,
+        "connections" : {
+          "outcome" : "5cad5024-dd5d-4115-9559-e202ebce67ba"
+        }
+      },
+      "5cad5024-dd5d-4115-9559-e202ebce67ba" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 340,
+        "y" : 68,
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}

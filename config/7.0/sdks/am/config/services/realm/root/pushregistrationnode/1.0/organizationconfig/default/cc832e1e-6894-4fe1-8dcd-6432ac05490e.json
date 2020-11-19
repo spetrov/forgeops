@@ -1,0 +1,26 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "PushRegistrationNode",
+    "entityId" : "default/cc832e1e-6894-4fe1-8dcd-6432ac05490e",
+    "uid" : "ou=cc832e1e-6894-4fe1-8dcd-6432ac05490e,ou=default,ou=OrganizationConfig,ou=1.0,ou=PushRegistrationNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "cc832e1e-6894-4fe1-8dcd-6432ac05490e" ]
+  },
+  "data" : {
+    "_id" : "default/cc832e1e-6894-4fe1-8dcd-6432ac05490e",
+    "_type" : {
+      "_id" : "PushRegistrationNode",
+      "name" : "PushRegistrationNode",
+      "collection" : false
+    },
+    "imgUrl" : null,
+    "timeout" : 60,
+    "issuer" : "ForgeRock",
+    "bgColor" : "032b75",
+    "generateRecoveryCodes" : true,
+    "accountName" : "USERNAME"
+  }
+}

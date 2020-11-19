@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "DeviceSaveNode",
+    "entityId" : "default/eefb9fa2-e2e3-4c48-8827-7d3167d8d351",
+    "uid" : "ou=eefb9fa2-e2e3-4c48-8827-7d3167d8d351,ou=default,ou=OrganizationConfig,ou=1.0,ou=DeviceSaveNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/eefb9fa2-e2e3-4c48-8827-7d3167d8d351",
+    "_type" : {
+      "_id" : "DeviceSaveNode",
+      "name" : "DeviceSaveNode",
+      "collection" : false
+    },
+    "variableName" : null,
+    "maxSavedProfiles" : 5,
+    "saveDeviceMetadata" : true,
+    "saveDeviceLocation" : true
+  }
+}

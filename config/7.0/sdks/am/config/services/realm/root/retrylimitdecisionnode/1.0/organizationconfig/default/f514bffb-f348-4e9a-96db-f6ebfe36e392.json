@@ -1,0 +1,21 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "RetryLimitDecisionNode",
+    "entityId" : "default/f514bffb-f348-4e9a-96db-f6ebfe36e392",
+    "uid" : "ou=f514bffb-f348-4e9a-96db-f6ebfe36e392,ou=default,ou=OrganizationConfig,ou=1.0,ou=RetryLimitDecisionNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/f514bffb-f348-4e9a-96db-f6ebfe36e392",
+    "_type" : {
+      "_id" : "RetryLimitDecisionNode",
+      "name" : "RetryLimitDecisionNode",
+      "collection" : false
+    },
+    "retryLimit" : 3
+  }
+}

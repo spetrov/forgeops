@@ -1,0 +1,27 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "OathTokenVerifierNode",
+    "entityId" : "default/d6af02bf-8df8-4555-a9fa-7bd07437e6a2",
+    "uid" : "ou=d6af02bf-8df8-4555-a9fa-7bd07437e6a2,ou=default,ou=OrganizationConfig,ou=1.0,ou=OathTokenVerifierNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/d6af02bf-8df8-4555-a9fa-7bd07437e6a2",
+    "_type" : {
+      "_id" : "OathTokenVerifierNode",
+      "name" : "OathTokenVerifierNode",
+      "collection" : false
+    },
+    "totpTimeInterval" : 30,
+    "isRecoveryCodeAllowed" : true,
+    "algorithm" : "TOTP",
+    "totpHashAlgorithm" : "HMAC_SHA1",
+    "maximumAllowedClockDrift" : 5,
+    "totpTimeSteps" : 2,
+    "hotpWindowSize" : 100
+  }
+}

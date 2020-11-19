@@ -1,0 +1,86 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/MiscCallbacks",
+    "uid" : "ou=MiscCallbacks,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "MiscCallbacks" ]
+  },
+  "data" : {
+    "_id" : "default/MiscCallbacks",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "8527763a-dd7c-4849-90c0-3eae27add2c7",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 41,
+        "y" : 20
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 827,
+        "y" : 237
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 601,
+        "y" : 343
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "8527763a-dd7c-4849-90c0-3eae27add2c7" : {
+        "displayName" : "Username Collector",
+        "nodeType" : "UsernameCollectorNode",
+        "x" : 136,
+        "y" : 20,
+        "connections" : {
+          "outcome" : "2a3981d6-0c77-431f-8a4d-38dda11ef849"
+        }
+      },
+      "2a3981d6-0c77-431f-8a4d-38dda11ef849" : {
+        "displayName" : "Password Collector",
+        "nodeType" : "PasswordCollectorNode",
+        "x" : 257,
+        "y" : 86,
+        "connections" : {
+          "outcome" : "b741ca48-edfe-4b94-849a-a87300915c25"
+        }
+      },
+      "b741ca48-edfe-4b94-849a-a87300915c25" : {
+        "displayName" : "Choice Collector",
+        "nodeType" : "ChoiceCollectorNode",
+        "x" : 308,
+        "y" : 194,
+        "connections" : {
+          "green" : "aa0ca088-e19a-46a3-8e0a-cfd6d5e34957",
+          "red" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "blue" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "aa0ca088-e19a-46a3-8e0a-cfd6d5e34957" : {
+        "displayName" : "Message Node",
+        "nodeType" : "MessageNode",
+        "x" : 494,
+        "y" : 55,
+        "connections" : {
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "true" : "ea4fb5fc-bd78-4ed2-9bc3-be099ca9e424"
+        }
+      },
+      "ea4fb5fc-bd78-4ed2-9bc3-be099ca9e424" : {
+        "displayName" : "Polling Wait Node",
+        "nodeType" : "PollingWaitNode",
+        "x" : 681,
+        "y" : 56,
+        "connections" : {
+          "DONE" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    }
+  }
+}

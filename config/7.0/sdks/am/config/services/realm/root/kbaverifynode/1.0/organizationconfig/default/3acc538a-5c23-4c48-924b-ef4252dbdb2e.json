@@ -1,0 +1,22 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "KbaVerifyNode",
+    "entityId" : "default/3acc538a-5c23-4c48-924b-ef4252dbdb2e",
+    "uid" : "ou=3acc538a-5c23-4c48-924b-ef4252dbdb2e,ou=default,ou=OrganizationConfig,ou=1.0,ou=KbaVerifyNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "3acc538a-5c23-4c48-924b-ef4252dbdb2e" ]
+  },
+  "data" : {
+    "_id" : "default/3acc538a-5c23-4c48-924b-ef4252dbdb2e",
+    "_type" : {
+      "_id" : "KbaVerifyNode",
+      "name" : "KbaVerifyNode",
+      "collection" : false
+    },
+    "kbaInfoAttribute" : "kbaInfo",
+    "identityAttribute" : "userName"
+  }
+}

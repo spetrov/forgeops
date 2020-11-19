@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "ChoiceCollectorNode",
+    "entityId" : "default/b741ca48-edfe-4b94-849a-a87300915c25",
+    "uid" : "ou=b741ca48-edfe-4b94-849a-a87300915c25,ou=default,ou=OrganizationConfig,ou=1.0,ou=ChoiceCollectorNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "b741ca48-edfe-4b94-849a-a87300915c25" ]
+  },
+  "data" : {
+    "_id" : "default/b741ca48-edfe-4b94-849a-a87300915c25",
+    "_type" : {
+      "_id" : "ChoiceCollectorNode",
+      "name" : "ChoiceCollectorNode",
+      "collection" : false
+    },
+    "choices" : [ "red", "green", "blue" ],
+    "defaultChoice" : "green",
+    "prompt" : "Choose your color"
+  }
+}

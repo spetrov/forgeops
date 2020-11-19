@@ -22,4 +22,4 @@ patchesStrategicMerge:
   metadata:
     name: platform-config
   data:
-    FQDN: default.iam.example.com
+    FQDN: default.forgeops.petrov.ca

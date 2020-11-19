@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "GetAuthenticatorAppNode",
+    "entityId" : "default/f3278ceb-2bcf-49a7-8fd8-4ed16fe756ff",
+    "uid" : "ou=f3278ceb-2bcf-49a7-8fd8-4ed16fe756ff,ou=default,ou=OrganizationConfig,ou=1.0,ou=GetAuthenticatorAppNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "f3278ceb-2bcf-49a7-8fd8-4ed16fe756ff" ]
+  },
+  "data" : {
+    "_id" : "default/f3278ceb-2bcf-49a7-8fd8-4ed16fe756ff",
+    "_type" : {
+      "_id" : "GetAuthenticatorAppNode",
+      "name" : "GetAuthenticatorAppNode",
+      "collection" : false
+    },
+    "message" : { },
+    "continueLabel" : { },
+    "appleLink" : "https://itunes.apple.com/app/forgerock-authenticator/id1038442926",
+    "googleLink" : "https://play.google.com/store/apps/details?id=com.forgerock.authenticator"
+  }
+}

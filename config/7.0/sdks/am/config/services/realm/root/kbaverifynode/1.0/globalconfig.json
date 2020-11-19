@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : null,
+    "entityType" : "KbaVerifyNode",
+    "entityId" : "GlobalConfig",
+    "uid" : "ou=GlobalConfig,ou=1.0,ou=KbaVerifyNode,ou=services,ou=am-config",
+    "sunServiceID" : null,
+    "objectClass" : [ "top", "organizationalunit" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "GlobalConfig",
+    "_type" : {
+      "_id" : "KbaVerifyNode",
+      "name" : "KbaVerifyNode",
+      "collection" : false
+    }
+  }
+}

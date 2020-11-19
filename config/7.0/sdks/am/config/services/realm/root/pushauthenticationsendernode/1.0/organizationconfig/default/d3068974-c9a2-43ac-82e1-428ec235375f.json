@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "PushAuthenticationSenderNode",
+    "entityId" : "default/d3068974-c9a2-43ac-82e1-428ec235375f",
+    "uid" : "ou=d3068974-c9a2-43ac-82e1-428ec235375f,ou=default,ou=OrganizationConfig,ou=1.0,ou=PushAuthenticationSenderNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "d3068974-c9a2-43ac-82e1-428ec235375f" ]
+  },
+  "data" : {
+    "_id" : "default/d3068974-c9a2-43ac-82e1-428ec235375f",
+    "_type" : {
+      "_id" : "PushAuthenticationSenderNode",
+      "name" : "PushAuthenticationSenderNode",
+      "collection" : false
+    },
+    "messageTimeout" : 120000,
+    "userMessage" : { },
+    "mandatory" : false
+  }
+}

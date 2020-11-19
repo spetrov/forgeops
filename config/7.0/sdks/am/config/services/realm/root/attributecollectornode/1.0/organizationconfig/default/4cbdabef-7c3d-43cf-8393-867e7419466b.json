@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "AttributeCollectorNode",
+    "entityId" : "default/4cbdabef-7c3d-43cf-8393-867e7419466b",
+    "uid" : "ou=4cbdabef-7c3d-43cf-8393-867e7419466b,ou=default,ou=OrganizationConfig,ou=1.0,ou=AttributeCollectorNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "4cbdabef-7c3d-43cf-8393-867e7419466b" ]
+  },
+  "data" : {
+    "_id" : "default/4cbdabef-7c3d-43cf-8393-867e7419466b",
+    "_type" : {
+      "_id" : "AttributeCollectorNode",
+      "name" : "AttributeCollectorNode",
+      "collection" : false
+    },
+    "required" : false,
+    "attributesToCollect" : [ "sn", "givenName", "mail" ],
+    "validateInputs" : false,
+    "identityAttribute" : "userName"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "ChoiceCollectorNode",
+    "entityId" : "default/08dffe79-3626-4883-9f59-029a20629332",
+    "uid" : "ou=08dffe79-3626-4883-9f59-029a20629332,ou=default,ou=OrganizationConfig,ou=1.0,ou=ChoiceCollectorNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/08dffe79-3626-4883-9f59-029a20629332",
+    "_type" : {
+      "_id" : "ChoiceCollectorNode",
+      "name" : "ChoiceCollectorNode",
+      "collection" : false
+    },
+    "choices" : [ "Yes", "No" ],
+    "defaultChoice" : "Yes",
+    "prompt" : "Register for WebAuthn?"
+  }
+}

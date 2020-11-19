@@ -1,0 +1,44 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "SocialIdentityProviders",
+    "entityId" : "default/oidcConfig/google",
+    "uid" : "ou=google,ou=oidcConfig,ou=default,ou=OrganizationConfig,ou=1.0,ou=SocialIdentityProviders,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "google" ]
+  },
+  "data" : {
+    "_id" : "default/oidcConfig/google",
+    "_type" : {
+      "_id" : "SocialIdentityProviders",
+      "name" : "SocialIdentityProviders",
+      "collection" : false
+    },
+    "userInfoEndpoint" : "https://www.googleapis.com/oauth2/v3/userinfo",
+    "wellKnownEndpoint" : "https://accounts.google.com/.well-known/openid-configuration",
+    "clientSecret" : "AQIC4O76jUZrA5osfaG/nRTe77/7FlDqtqDGEob3pg54XKgsiti2onxOkA==",
+    "authorizationEndpoint" : "https://accounts.google.com/o/oauth2/v2/auth",
+    "basicAuth" : false,
+    "pkceMethod" : "S256",
+    "scopeDelimiter" : " ",
+    "clientId" : "684644441808-i6loorknmkpfvh9g91qfrsois2s13t99.apps.googleusercontent.com",
+    "redirectURI" : "https://default.forgeops.petrov.ca/login",
+    "transform" : "58d29080-4563-480b-89bb-1e7719776a21",
+    "tokenEndpoint" : "https://www.googleapis.com/oauth2/v4/token",
+    "scopes" : [ "openid", "profile", "email" ],
+    "authenticationIdKey" : "sub",
+    "uiConfig" : {
+      "buttonCustomStyleHover" : "color: #6d6d6d; background-color: #eee; border-color: #ccc;",
+      "buttonClass" : "",
+      "buttonImage" : "images/g-logo.png",
+      "buttonDisplayName" : "Google",
+      "iconBackground" : "#4184f3",
+      "iconFontColor" : "white",
+      "buttonCustomStyle" : "background-color: #fff; color: #757575; border-color: #ddd;",
+      "iconClass" : "fa-google"
+    },
+    "enabled" : true
+  }
+}

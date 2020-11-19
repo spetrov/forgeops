@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "PushResultVerifierNode",
+    "entityId" : "default/faed6360-1c81-4ed4-974d-475ad2b6c583",
+    "uid" : "ou=faed6360-1c81-4ed4-974d-475ad2b6c583,ou=default,ou=OrganizationConfig,ou=1.0,ou=PushResultVerifierNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/faed6360-1c81-4ed4-974d-475ad2b6c583",
+    "_type" : {
+      "_id" : "PushResultVerifierNode",
+      "name" : "PushResultVerifierNode",
+      "collection" : false
+    }
+  }
+}

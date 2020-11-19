@@ -1,0 +1,67 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/KBAAuthentication",
+    "uid" : "ou=KBAAuthentication,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "KBAAuthentication" ]
+  },
+  "data" : {
+    "_id" : "default/KBAAuthentication",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "f5391d5b-3b2b-499a-b36c-330f60abb837",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 718,
+        "y" : 195
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 595,
+        "y" : 194
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "f5391d5b-3b2b-499a-b36c-330f60abb837" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 140,
+        "y" : 30,
+        "connections" : {
+          "outcome" : "950b84c7-9422-4aed-b3e5-e61ffa7ac6b8"
+        }
+      },
+      "950b84c7-9422-4aed-b3e5-e61ffa7ac6b8" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 332,
+        "y" : 46,
+        "connections" : {
+          "true" : "3acc538a-5c23-4c48-924b-ef4252dbdb2e",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      },
+      "3acc538a-5c23-4c48-924b-ef4252dbdb2e" : {
+        "displayName" : "KBA Verification",
+        "nodeType" : "KbaVerifyNode",
+        "x" : 507,
+        "y" : 65,
+        "connections" : {
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0",
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a"
+        }
+      }
+    }
+  }
+}

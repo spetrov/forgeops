@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "RecoveryCodeDisplayNode",
+    "entityId" : "default/231dd2f5-1208-4a64-9608-478d197d8b3f",
+    "uid" : "ou=231dd2f5-1208-4a64-9608-478d197d8b3f,ou=default,ou=OrganizationConfig,ou=1.0,ou=RecoveryCodeDisplayNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : null
+  },
+  "data" : {
+    "_id" : "default/231dd2f5-1208-4a64-9608-478d197d8b3f",
+    "_type" : {
+      "_id" : "RecoveryCodeDisplayNode",
+      "name" : "RecoveryCodeDisplayNode",
+      "collection" : false
+    }
+  }
+}

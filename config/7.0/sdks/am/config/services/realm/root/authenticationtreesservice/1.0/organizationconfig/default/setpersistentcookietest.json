@@ -1,0 +1,66 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "authenticationTreesService",
+    "entityId" : "default/SetPersistentCookieTest",
+    "uid" : "ou=SetPersistentCookieTest,ou=default,ou=OrganizationConfig,ou=1.0,ou=authenticationTreesService,ou=services,ou=am-config",
+    "sunServiceID" : "tree",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "SetPersistentCookieTest" ]
+  },
+  "data" : {
+    "_id" : "default/SetPersistentCookieTest",
+    "_type" : {
+      "_id" : "authenticationTreesService",
+      "name" : "authenticationTreesService",
+      "collection" : false
+    },
+    "entryNodeId" : "41a20216-0615-48a3-a204-91b2c96e97f4",
+    "staticNodes" : {
+      "startNode" : {
+        "x" : 50,
+        "y" : 25
+      },
+      "70e691a5-1e33-4ac3-a356-e7b6d60d92e0" : {
+        "x" : 665,
+        "y" : 172
+      },
+      "e301438c-0bd0-429c-ab0c-66126501069a" : {
+        "x" : 519,
+        "y" : 206
+      }
+    },
+    "uiConfig" : { },
+    "nodes" : {
+      "41a20216-0615-48a3-a204-91b2c96e97f4" : {
+        "displayName" : "Page Node",
+        "nodeType" : "PageNode",
+        "x" : 129,
+        "y" : 36,
+        "connections" : {
+          "outcome" : "bd45b6ba-c241-4225-b6c0-d9c294f0701e"
+        }
+      },
+      "bd45b6ba-c241-4225-b6c0-d9c294f0701e" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "x" : 338,
+        "y" : 55,
+        "connections" : {
+          "false" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "true" : "afd960da-57d7-491d-8347-fc03fb65cfe0"
+        }
+      },
+      "afd960da-57d7-491d-8347-fc03fb65cfe0" : {
+        "displayName" : "Set Persistent Cookie",
+        "nodeType" : "SetPersistentCookieNode",
+        "x" : 518,
+        "y" : 51,
+        "connections" : {
+          "outcome" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      }
+    }
+  }
+}

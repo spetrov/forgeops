@@ -1,0 +1,24 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "ConsentNode",
+    "entityId" : "default/3281ef60-56d8-4612-9231-7626e8a598ae",
+    "uid" : "ou=3281ef60-56d8-4612-9231-7626e8a598ae,ou=default,ou=OrganizationConfig,ou=1.0,ou=ConsentNode,ou=services,ou=am-config",
+    "sunServiceID" : "instance",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "3281ef60-56d8-4612-9231-7626e8a598ae" ]
+  },
+  "data" : {
+    "_id" : "default/3281ef60-56d8-4612-9231-7626e8a598ae",
+    "_type" : {
+      "_id" : "ConsentNode",
+      "name" : "ConsentNode",
+      "collection" : false
+    },
+    "message" : {
+      "en" : "Test"
+    },
+    "allRequired" : true
+  }
+}

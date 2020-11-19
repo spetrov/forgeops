@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "ScriptingService",
+    "entityId" : "default/scriptConfigurations/4061abd5-c25d-4120-8021-dcab7838d643",
+    "uid" : "ou=4061abd5-c25d-4120-8021-dcab7838d643,ou=scriptConfigurations,ou=default,ou=OrganizationConfig,ou=1.0,ou=ScriptingService,ou=services,ou=am-config",
+    "sunServiceID" : "scriptConfiguration",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "4061abd5-c25d-4120-8021-dcab7838d643" ]
+  },
+  "data" : {
+    "_id" : "default/scriptConfigurations/4061abd5-c25d-4120-8021-dcab7838d643",
+    "_type" : {
+      "_id" : "ScriptingService",
+      "name" : "ScriptingService",
+      "collection" : false
+    },
+    "createdBy" : "null",
+    "lastModifiedDate" : "0",
+    "lastModifiedBy" : "null",
+    "name" : "displayName",
+    "context" : "AUTHENTICATION_TREE_DECISION_NODE",
+    "description" : "This script is used in the WebAuthn workflows.",
+    "language" : "JAVASCRIPT",
+    "creationDate" : "0",
+    "script" : "c2hhcmVkU3RhdGUucHV0KCJkaXNwbGF5TmFtZSIsICJNeSBVc2VyIERpc3BsYXkgTmFtZSIpOwpvdXRjb21lID0gImNvbnRpbnVlIjs="
+  }
+}

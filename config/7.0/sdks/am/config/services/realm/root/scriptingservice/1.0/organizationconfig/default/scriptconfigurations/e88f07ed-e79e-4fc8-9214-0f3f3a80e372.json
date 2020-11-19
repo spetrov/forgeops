@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "entityType" : "ScriptingService",
+    "entityId" : "default/scriptConfigurations/e88f07ed-e79e-4fc8-9214-0f3f3a80e372",
+    "uid" : "ou=e88f07ed-e79e-4fc8-9214-0f3f3a80e372,ou=scriptConfigurations,ou=default,ou=OrganizationConfig,ou=1.0,ou=ScriptingService,ou=services,ou=am-config",
+    "sunServiceID" : "scriptConfiguration",
+    "objectClass" : [ "top", "sunServiceComponent" ],
+    "pathParams" : { },
+    "ou" : [ "e88f07ed-e79e-4fc8-9214-0f3f3a80e372" ]
+  },
+  "data" : {
+    "_id" : "default/scriptConfigurations/e88f07ed-e79e-4fc8-9214-0f3f3a80e372",
+    "_type" : {
+      "_id" : "ScriptingService",
+      "name" : "ScriptingService",
+      "collection" : false
+    },
+    "createdBy" : "null",
+    "lastModifiedDate" : "0",
+    "lastModifiedBy" : "null",
+    "name" : "HiddenValueProducer",
+    "context" : "AUTHENTICATION_TREE_DECISION_NODE",
+    "description" : "Produces a HiddenValueCallback for testing purposes.",
+    "language" : "JAVASCRIPT",
+    "creationDate" : "0",
+    "script" : "dmFyIGZyID0gSmF2YUltcG9ydGVyICgKICBvcmcuZm9yZ2Vyb2NrLmpzb24uSnNvblZhbHVlLAogIG9yZy5mb3JnZXJvY2sub3BlbmFtLmF1dGgubm9kZS5hcGkuQWN0aW9uLAogIGNvbS5zdW4uaWRlbnRpdHkuYXV0aGVudGljYXRpb24uY2FsbGJhY2tzLkhpZGRlblZhbHVlQ2FsbGJhY2sKKTsKCndpdGggKGZyKSB7CiAgaWYgKGNhbGxiYWNrcy5pc0VtcHR5KCkpIHsKICAJYWN0aW9uID0gQWN0aW9uLnNlbmQobmV3IEhpZGRlblZhbHVlQ2FsbGJhY2soJ215SWQnLCAnbXlWYWx1ZScpKS5idWlsZCgpOwogIH0gZWxzZSB7CiAgCWFjdGlvbiA9IEFjdGlvbi5nb1RvKCJ0cnVlIikuYnVpbGQoKTsKICB9Cn0="
+  }
+}
